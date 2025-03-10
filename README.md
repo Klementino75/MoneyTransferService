@@ -30,7 +30,7 @@
 
 ### Описание интеграции с FRONT
 
-FRONT доступен по адресу https://github.com/serp-ya/card-transfer.
+FRONT доступен по адресу https://github.com/serp-ya/card-transfer или в папкке **_card-transfer_**.
 Можно скачать репозиторий или использовать уже развёрнутое демо-приложение по адресу https://serp-ya.github.io/card-transfer/ (тогда ваш API должен быть запущен по адресу http://localhost:5500/).
 
 ### Решение
