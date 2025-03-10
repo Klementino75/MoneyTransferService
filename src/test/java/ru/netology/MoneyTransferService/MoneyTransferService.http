@@ -1,0 +1,23 @@
+### принимает объект и возвращает номер операции при успешном выполнении
+POST http://localhost:5500/transfer
+Content-Type: application/json
+
+{
+  "cardFromNumber": "1115776600101892",
+  "cardFromValidTill": "05/25",
+  "cardFromCVV": "530",
+  "cardToNumber": "5555636255001321",
+  "amount": {
+    "value": 11000,
+    "currency": "RUB"
+  }
+}
+
+### принимает объект с кодом верификации и возвращает номер операции при успешном выполнении
+POST http://localhost:5500/confirmOperation
+Content-Type: application/json
+
+{
+  "operationId": "7",
+  "code": "2304"
+}

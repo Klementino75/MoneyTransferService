@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  app1:
+    image: 'myapp'
+    container_name: 'myapp'
+    build: ./
+    ports:
+      - '5500:5500'
